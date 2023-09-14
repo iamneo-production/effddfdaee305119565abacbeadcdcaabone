@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APIBook = dotnetapiapp.Models.Book;
 
 namespace dotnetapiapp.Tests
 {
@@ -28,11 +29,11 @@ namespace dotnetapiapp.Tests
             _context.Database.EnsureCreated(); // Create the database
 
             // Seed the database with sample data
-            _context.Books.AddRange(new List<Book>
+            _context.Books.AddRange(new List<APIBook>
             {
-                new Book { Id = 1, Title = "Book 1", Author = "Author 1", Price = 10.99m, Quantity = 5 },
-                new Book { Id = 2, Title = "Book 2", Author = "Author 2", Price = 12.99m, Quantity = 7 },
-                new Book { Id = 3, Title = "Book 3", Author = "Author 3", Price = 9.99m, Quantity = 3 },
+                new APIBook { Id = 1, Title = "Book 1", Author = "Author 1", Price = 10.99m, Quantity = 5 },
+                new APIBook { Id = 2, Title = "Book 2", Author = "Author 2", Price = 12.99m, Quantity = 7 },
+                new APIBook { Id = 3, Title = "Book 3", Author = "Author 3", Price = 9.99m, Quantity = 3 },
             });
             _context.SaveChanges();
 
@@ -66,8 +67,8 @@ namespace dotnetapiapp.Tests
             Assert.IsInstanceOf<OkObjectResult>(result.Result);
             var okResult = result.Result as OkObjectResult;
 
-            Assert.IsInstanceOf<IEnumerable<Book>>(okResult.Value);
-            var books = okResult.Value as IEnumerable<Book>;
+            Assert.IsInstanceOf<IEnumerable<APIBook>>(okResult.Value);
+            var books = okResult.Value as IEnumerable<APIBook>;
 
             var bookCount = books.Count();
             Assert.AreEqual(3, bookCount); // Assuming you have 3 books in the seeded data
@@ -101,7 +102,7 @@ namespace dotnetapiapp.Tests
             Assert.IsInstanceOf<OkObjectResult>(result.Result);
             var okResult = result.Result as OkObjectResult;
 
-            var book = okResult.Value as Book;
+            var book = okResult.Value as APIBook;
             Assert.IsNotNull(book);
             Assert.AreEqual(existingId, book.Id);
         }
