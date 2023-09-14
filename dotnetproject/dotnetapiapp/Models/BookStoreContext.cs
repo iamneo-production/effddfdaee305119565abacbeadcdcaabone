@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace dotnetapiapp.Models;
 
-public partial class BookStoreContext : DbContext
+public class BookStoreContext : DbContext
 {
     public BookStoreContext()
     {
@@ -40,8 +40,6 @@ public partial class BookStoreContext : DbContext
                 .HasColumnName("title");
         });
 
-        OnModelCreatingPartial(modelBuilder);
     }
 
-    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }
