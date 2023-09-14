@@ -62,3 +62,8 @@
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/obj/Debug/net6.0/dotnetapiapp.pdb
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/obj/Debug/net6.0/dotnetapiapp.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/obj/Debug/net6.0/ref/dotnetapiapp.dll
+/home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/System.Net.Http.Formatting.dll
+/home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/System.Web.Http.dll
+/home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/System.Web.Http.WebHost.dll
+/home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
