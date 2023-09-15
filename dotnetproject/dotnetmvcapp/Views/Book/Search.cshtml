@@ -1,0 +1,45 @@
+@model IEnumerable<dotnetapiapp.Models.Book>
+
+<h1>Books</h1>
+<p><a asp-action="Index">View All Books </a></p>
+
+<form asp-action="Search" method="get">
+    <div class="form-group">
+        <label for="id">Book ID:</label>
+        <input type="text" class="form-control" id="id" name="id" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<h1>Search Results</h1>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.Id</td>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.Price</td>
+                    <td>@book.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No matching book found.</p>
+}
