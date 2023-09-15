@@ -9,7 +9,7 @@ namespace dotnetmvcapp.Controllers;
 
 public class BookController : Controller
 {
-    Uri baseaddress = new Uri("https://localhost:8080/api");
+    Uri baseaddress = new Uri("http://localhost:8080/api");
     private readonly HttpClient client;
 
     public BookController()
