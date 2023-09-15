@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8GTHSlCgYsq9BCH7S6eNvQxRk95WxA0Qi+3qiarLsg18QaBrGJ3LpWwNzPZe+U7J9NippGVmYwWZaG6n8QuEyQ==",
+  "dgSpecHash": "lcLwQ/LttGfoq167AidhvR14J5dEjHZXujllIA32V+0ye++7Y+TS5+kpYC6yomzRLQV0avzUuJiTH3Yi+5919A==",
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetproject/dotnetapiapp/dotnetapiapp.csproj",
   "expectedPackageFiles": [
@@ -46,7 +46,7 @@
     "/home/coder/.nuget/packages/newtonsoft.json/10.0.1/newtonsoft.json.10.0.1.nupkg.sha512",
     "/home/coder/.nuget/packages/newtonsoft.json.bson/1.0.1/newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "/home/coder/.nuget/packages/nunit/3.0.0/nunit.3.0.0.nupkg.sha512",
-    "/home/coder/.nuget/packages/nunit3testadapter/3.0.10/nunit3testadapter.3.0.10.nupkg.sha512",
+    "/home/coder/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -144,16 +144,6 @@
   ],
   "logs": [
     {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "dotnetapiapp depends on NUnit3TestAdapter (>= 3.0.0) but NUnit3TestAdapter 3.0.0 was not found. An approximate best match of NUnit3TestAdapter 3.0.10 was resolved.",
-      "libraryId": "NUnit3TestAdapter",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
@@ -179,16 +169,6 @@
       "warningLevel": 1,
       "message": "Package 'NUnit 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "NUnit",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'NUnit3TestAdapter 3.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "NUnit3TestAdapter",
       "targetGraphs": [
         "net6.0"
       ]

@@ -739,19 +739,10 @@
           }
         }
       },
-      "NUnit3TestAdapter/3.0.10": {
+      "NUnit3TestAdapter/4.2.1": {
         "type": "package",
-        "compile": {
-          "lib/Mono.Cecil.dll": {},
-          "lib/NUnit3.TestAdapter.dll": {},
-          "lib/nunit.engine.api.dll": {},
-          "lib/nunit.engine.dll": {}
-        },
-        "runtime": {
-          "lib/Mono.Cecil.dll": {},
-          "lib/NUnit3.TestAdapter.dll": {},
-          "lib/nunit.engine.api.dll": {},
-          "lib/nunit.engine.dll": {}
+        "build": {
+          "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -3414,22 +3405,29 @@
         "nunit.nuspec"
       ]
     },
-    "NUnit3TestAdapter/3.0.10": {
-      "sha512": "A0FJIyBnjCEftjD6QtlZorqiDw+QoXIW7gWP5Fbh+eB+namKUIXe00zd7XJyx7xzGiyQ6rueQxRGWpc0gBuZOg==",
+    "NUnit3TestAdapter/4.2.1": {
+      "sha512": "kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
       "type": "package",
-      "path": "nunit3testadapter/3.0.10",
-      "hasTools": true,
+      "path": "nunit3testadapter/4.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/Mono.Cecil.dll",
-        "lib/NUnit3.TestAdapter.dll",
-        "lib/ignore.addins",
-        "lib/nunit.engine.api.dll",
-        "lib/nunit.engine.dll",
-        "nunit3testadapter.3.0.10.nupkg.sha512",
-        "nunit3testadapter.nuspec",
-        "tools/install.ps1"
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.core.dll",
+        "build/net35/nunit.engine.dll",
+        "build/net35/testcentric.engine.metadata.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.core.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "build/netcoreapp2.1/testcentric.engine.metadata.dll",
+        "nunit3testadapter.4.2.1.nupkg.sha512",
+        "nunit3testadapter.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -7587,7 +7585,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
       "NUnit >= 3.0.0",
-      "NUnit3TestAdapter >= 3.0.0",
+      "NUnit3TestAdapter >= 4.2.1",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -7662,7 +7660,7 @@
           },
           "NUnit3TestAdapter": {
             "target": "Package",
-            "version": "[3.0.0, )"
+            "version": "[4.2.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -7694,16 +7692,6 @@
   },
   "logs": [
     {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "dotnetapiapp depends on NUnit3TestAdapter (>= 3.0.0) but NUnit3TestAdapter 3.0.0 was not found. An approximate best match of NUnit3TestAdapter 3.0.10 was resolved.",
-      "libraryId": "NUnit3TestAdapter",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
@@ -7729,16 +7717,6 @@
       "warningLevel": 1,
       "message": "Package 'NUnit 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "NUnit",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'NUnit3TestAdapter 3.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "NUnit3TestAdapter",
       "targetGraphs": [
         "net6.0"
       ]

@@ -28,7 +28,6 @@
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/Newtonsoft.Json.dll
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/nunit.framework.dll
-/home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/Mono.Cecil.dll
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/NUnit3.TestAdapter.dll
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/nunit.engine.api.dll
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/nunit.engine.dll
@@ -70,3 +69,6 @@
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/obj/Debug/net6.0/dotnetapiapp.pdb
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/obj/Debug/net6.0/dotnetapiapp.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetproject/dotnetapiapp/obj/Debug/net6.0/ref/dotnetapiapp.dll
+/home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/NUnit3.TestAdapter.pdb
+/home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/nunit.engine.core.dll
+/home/coder/project/workspace/dotnetproject/dotnetapiapp/bin/Debug/net6.0/testcentric.engine.metadata.dll

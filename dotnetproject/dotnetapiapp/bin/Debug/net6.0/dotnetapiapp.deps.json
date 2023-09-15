@@ -15,7 +15,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.0",
           "NUnit": "3.0.0",
-          "NUnit3TestAdapter": "3.0.10",
+          "NUnit3TestAdapter": "4.2.1",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -464,26 +464,7 @@
           }
         }
       },
-      "NUnit3TestAdapter/3.0.10": {
-        "runtime": {
-          "lib/Mono.Cecil.dll": {
-            "assemblyVersion": "0.9.6.0",
-            "fileVersion": "0.9.6.0"
-          },
-          "lib/NUnit3.TestAdapter.dll": {
-            "assemblyVersion": "3.0.10.0",
-            "fileVersion": "3.0.10.0"
-          },
-          "lib/nunit.engine.api.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.1.0"
-          },
-          "lib/nunit.engine.dll": {
-            "assemblyVersion": "3.0.5813.39036",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
+      "NUnit3TestAdapter/4.2.1": {},
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -1648,12 +1629,12 @@
       "path": "nunit/3.0.0",
       "hashPath": "nunit.3.0.0.nupkg.sha512"
     },
-    "NUnit3TestAdapter/3.0.10": {
+    "NUnit3TestAdapter/4.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-A0FJIyBnjCEftjD6QtlZorqiDw+QoXIW7gWP5Fbh+eB+namKUIXe00zd7XJyx7xzGiyQ6rueQxRGWpc0gBuZOg==",
-      "path": "nunit3testadapter/3.0.10",
-      "hashPath": "nunit3testadapter.3.0.10.nupkg.sha512"
+      "sha512": "sha512-kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
+      "path": "nunit3testadapter/4.2.1",
+      "hashPath": "nunit3testadapter.4.2.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
